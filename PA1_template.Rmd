@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Reproducible Research: Peer Assessment 1
 ========================================================
@@ -59,10 +60,26 @@ interval_max_steps <- names(interval_number)
 interval_max_steps
 ```
 The ** `r  interval_max_steps `** minute  or ** `r  interval_number `th ** 5 minute interval contains the maximum number of steps on average across all the days.
+=======
+# Reproducible Research: Peer Assessment 1
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
 
 
 ## Imputing missing values
 
+<<<<<<< HEAD
 ##Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
 
 ```{r}
@@ -133,3 +150,8 @@ xyplot(steps~interval | day_type,average_steps,type="l",
 
 
 
+=======
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
